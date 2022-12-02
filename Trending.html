@@ -1,0 +1,1793 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    *
+    {
+        padding:0;
+        margin:0;
+    }
+    .container-fluid
+    {
+        height:50px;
+        background-color:#E8E9EA;
+    }
+    .container1-fluid
+    {
+        height:500px;
+        background-color:white;
+    }
+    .fa
+    {
+        padding-top:15px;
+        padding-right:10px;
+    }
+    .img1
+    {
+        width:650px;
+        height:500px;
+        background-image:url(AC1.webp);
+        background-size:100% 100%;
+    }
+    .nav
+    {
+        font-size:12px;
+        padding-top:8px;
+        margin-top:-40px;
+    }
+    h4
+    {
+        display:grid;
+        place-items:center;
+        font-size:14px;
+    }    
+    h3
+    {
+        display:grid;
+        place-items:center;
+        color:#21595A;
+        padding-top:50px;
+    }
+    .container
+    {
+      
+        height:80px;
+        margin:0 auto; 
+        display:flex;
+        flex-direction:row;
+    
+    }
+    .box2
+    {
+        width:60px;
+        height:60px;
+        display:grid;
+        margin:40px; 
+    }
+    .img2
+    {
+        width:50px;
+        height:40px;
+        background-image:url(salon.png);
+        background-size:100% 100%;
+    }
+    .img3
+    {
+        width:50px;
+        height:40px;
+        background-image:url(electrician.png);
+        background-size:100% 100%;
+    }
+    .img4
+    {
+        width:50px;
+        height:40px;
+        background-image:url(plumber.png);
+        background-size:100% 100%;
+    }
+    .img5
+    {
+        width:50px;
+        height:40px;
+        background-image:url(cctv.png);
+        background-size:100% 100%;
+    }
+    .container1
+    {
+        
+        height:80px;
+        margin:0 auto; 
+        display:flex;
+        flex-direction:row;
+        padding-top:10px;
+        padding-left:15px;
+    }
+    .box3
+    {
+        width:60px;
+        height:60px;
+        display:grid;
+
+        margin:40px; 
+    }
+    .img6
+    {
+        width:90px;
+        height:30px;
+        background-image:url(Ac1.png);
+        background-size:100% 100%;
+    }
+    .img7
+    {
+        width:50px;
+        height:40px;
+        background-image:url(packers.png);
+        background-size:100% 100%;
+    }
+    .img8
+    {
+        width:50px;
+        height:40px;
+        background-image:url(cleaning.png);
+        background-size:100% 100%;
+    }
+    .img9
+    {
+        width:50px;
+        height:40px;
+        background-image:url(paint.png);
+        background-size:100% 100%;
+    }
+    .container2
+    {
+        
+        height:80px;
+        margin:0 auto; 
+        display:flex;
+        flex-direction:row;
+        padding-top:25px;
+        padding-left:15px;
+    }
+    .box4
+    {
+        width:60px;
+        height:60px;
+        display:grid;
+        margin:40px; 
+    }
+    .img10
+    {
+        width:50px;
+        height:40px;
+        background-image:url(ghar.png);
+        background-size:100% 100%;
+    }
+    .img11
+    {
+        width:50px;
+        height:40px;
+        background-image:url(Disinfection.png);
+        background-size:100% 100%;
+    }
+    .img12
+    {
+        width:50px;
+        height:40px;
+        background-image:url(pest.png);
+        background-size:100% 100%;
+    }
+    .img13
+    {
+        width:50px;
+        height:40px;
+        background-image:url(Carpenter.png);
+        background-size:100% 100%;
+    }
+    .container3
+    {
+        
+        height:80px;
+        margin:0 auto; 
+        display:flex;
+        flex-direction:row;
+        padding-top:60px;
+    
+    }
+    .box5
+    {
+        width:220px;
+        height:110px;
+        display:grid;
+        background-color:pink;
+        border-radius:20px;
+        margin:10px; 
+    }
+    .img14
+    {
+        width:220px;
+        height:110px;
+        background-image:url(get.png);
+        background-size:100% 100%;
+    }
+    .img15
+    {
+        width:220px;
+        height:110px;
+        background-image:url(Start.png);
+        background-size:100% 100%;
+    }
+    .box6
+    {
+        width:100px;
+        height:110px;
+        display:grid;
+        background-color:pink;
+        border-radius:20px;
+        margin:10px; 
+    }
+    .img16
+    {
+        width:100px;
+        height:110px;
+        background-image:url(Sofa.png);
+        background-size:100% 100%;
+    }    
+    .container1-fluid-left
+    {
+        float:left;
+    }
+    .container1-fluid-right
+    {
+        float:right;
+    }
+    .ab
+    {
+       padding-right:140px;
+       padding-top:10px;
+    }
+    .box1
+    {
+        width:180px;
+        height:28px;
+        background-color:red;
+        margin-left:400px;
+    }
+    .container4
+    {
+        width:1000px;
+        height:160px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+        padding-top:20px;
+
+    }
+    .img17
+    {
+        width:80px;
+        height:80px;
+        background-image:url(Air.png);
+        background-size:100% 100%;
+        margin-left:40px;
+        margin-top:-30px; 
+    }
+    .img18
+    {
+        width:95px;
+        height:80px;
+        background-image:url(rect.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px; 
+    }
+    .img19
+    {
+        width:110px;
+        height:80px;
+        background-image:url(Sofaclean.png);
+        background-size:100% 100%;
+        margin-left:23px;
+        margin-top:-20px; 
+    }
+    .img20
+    {
+        width:120px;
+        height:100px;
+        background-image:url(Home.png);
+        background-size:100% 100%;
+        margin-left:24px;
+        margin-top:-40px; 
+    }
+    .img21
+    {
+        width:80px;
+        height:80px;
+        background-image:url(Air.png);
+        background-size:100% 100%;
+        margin-left:40px;
+        margin-top:-30px; 
+    }
+    .box7
+    {
+        width:160px;
+        height:100px;
+        margin:10px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:20px;   
+    }
+    .ac
+    {
+        padding-left:25px;
+    }
+    .container5
+    {
+        width:1000px;
+        height:260px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+        padding-top:80px;
+    }
+    .img22
+    {
+        width:160px;
+        height:140px;
+        background-image:url(Carp.png);
+        background-size:100% 100%;
+        margin-left:5px;
+        margin-top:-90px; 
+    }
+    .img23
+    {
+        width:100px;
+        height:140px;
+        background-image:url(Plumbing.png);
+        background-size:100% 100%;
+        margin-left:28px;
+        margin-top:-90px; 
+    }
+    .img24
+    {
+        width:100px;
+        height:140px;
+        background-image:url(Electrician1.png);
+        background-size:100% 100%;
+        margin-left:20px;
+        margin-top:-90px; 
+    }
+    .img25
+    {
+        width:120px;
+        height:140px;
+        background-image:url(Painting.png);
+        background-size:100% 100%;
+        margin-left:10px;
+        margin-top:-90px; 
+    }
+    .img26
+    {
+        width:200px;
+        height:200px;
+        background-image:url(Pesticide.png);
+        background-size:100% 100%;
+        margin-left:-20px;
+        margin-top:-140px; 
+    }
+    .box8
+    {
+        width:140px;
+        height:160px;
+        margin:10px;
+        padding-top:20px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:20px;   
+    }
+    .box9
+    {
+        width:600px;
+        height:130px;
+        background-color:#E5E7E9;
+        border-radius:20px;
+        box-shadow:2px 2px 2px 1px rgb(221, 218, 218);
+        margin-left:340px;
+        margin-top:100px;
+    }
+    h2
+    {
+        padding-top:2px;
+        padding-left:40px;
+        color:#21595A;
+        font-size:28px;
+    }
+    .img27
+    {
+        width:200px;
+        height:130px;
+        background-image:url(Delivery.png);
+        background-size:100% 100%;
+        float:right;
+        margin-right:20px;
+    }
+    .container6
+    {
+        width:1000px;
+        height:240px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+        padding-top:20px;
+
+    }
+    .box10
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box11
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box12
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box13
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .container7
+    {
+        width:1000px;
+        height:240px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+    
+        padding-top:20px;
+    }
+    .box14
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box15
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box16
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box17
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .az
+    {
+        padding-top:60px;
+    }
+    .sec1,.sec2,.sec3,.sec4
+   {
+    width:200px;
+    height:200px;
+    background-color:white;
+   }
+   
+   .as
+   {
+    font-size:11px;
+    color:rgb(235, 232, 232);
+    padding-left:10px;
+   }
+   .ap
+   {
+    font-size:14px;
+    padding-left:20px;
+   }
+   .container8
+   {
+    width:1270px;
+    height:290px;
+    background-color:rgb(245, 242, 242);
+   }
+   h1
+   {
+    font-size:50px;
+    padding-left:400px;
+    padding-top:40px;
+   }
+   .img28
+   {
+    width:60px;
+    height:60px;
+    background-image:url(quality.png);
+    background-size:100% 100%;
+    margin-left:90px;
+    margin-top:40px;
+   }
+   .img29
+   {
+    width:60px;
+    height:60px;
+    background-image:url(quality.png);
+    background-size:100% 100%;
+    margin-left:480px;
+    margin-top:-70px;
+
+   }
+   .img30
+   {
+    width:60px;
+    height:60px;
+    background-image:url(quality.png);
+    background-size:100% 100%;
+    margin-left:800px;
+    margin-top:-68px;
+
+   }
+   .container9
+   {
+    width:1000px;
+        height:240px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+        padding-top:20px;
+   }
+   .box18
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box19
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box20
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box21
+    {
+        width:190px;
+        height:120px;
+        margin:5px;
+        background-color:#641E16;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .container10
+   {
+    width:1270px;
+        height:180px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+        padding-top:20px;
+    
+   }
+    .box22
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box23
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px; 
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box24
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box25
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box26
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box27
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .z
+    {
+        padding-left:160px;
+        margin-top:-60px;
+    }
+    .y
+    {
+       font-size:13px;
+       padding-left:160px;
+        margin-top:-33px;
+    }
+    .p
+    {
+        padding-left:550px;
+        margin-top:-60px;
+    }
+    .q
+    {
+       font-size:13px;
+       padding-left:550px;
+        margin-top:-33px;
+    }
+    .s
+    {
+        padding-left:870px;
+        margin-top:-60px;
+    }
+    .t
+    {
+       font-size:13px;
+       padding-left:870px;
+        margin-top:-33px;
+    }
+    .img31
+    {
+        width:100px;
+        height:100px;
+        background-image:url(mach.png);
+        background-size:100% 100%;
+        margin-left:20px;
+        margin-top:-30px;
+    }
+    .img32
+    {
+        width:100px;
+        height:100px;
+        background-image:url(Fridge.png);
+        background-size:100% 100%;
+        margin-left:20px;
+        margin-top:-30px;
+    }
+    .img33
+    {
+        width:100px;
+        height:100px;
+        background-image:url(micro.png);
+        background-size:100% 100%;
+        margin-left:20px;
+        margin-top:-30px;
+    }
+    .img34
+    {
+        width:100px;
+        height:100px;
+        background-image:url(ro.png);
+        background-size:100% 100%;
+        margin-left:20px;
+        margin-top:-30px;
+    }
+    .img35
+    {
+        width:100px;
+        height:100px;
+        background-image:url(tv.png);
+        background-size:100% 100%;
+        margin-left:20px;
+        margin-top:-30px;
+    }
+    .img36
+    {
+        width:100px;
+        height:100px;
+        background-image:url(Ac.png);
+        background-size:100% 100%;
+        margin-left:20px;
+        margin-top:-30px;
+    }
+    .e
+    {
+        font-size:13px;
+        padding-left:18px;
+    }
+    .f
+    {
+        font-size:13px;
+        padding-left:33px;  
+    }
+    .container2-fluid
+    {
+        height:260px;
+        background-color:#E7CA3D;
+        margin-top:80px;
+    }
+    .g
+    {
+        font-size:39px;
+        padding-left:580px;
+    }
+    .h
+    {
+        font-size:25px;
+        padding-left:680px;
+        margin-top:-70px;
+
+    }
+    .i
+    {
+        padding-left:660px;
+        font-size:39px;
+        margin-top:-50px;
+
+    }
+    .button
+    {
+        padding-left:660px;
+    }
+    .container11
+   {
+    width:1270px;
+        height:180px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+        padding-top:50px;
+    
+   }
+    .box28
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box29
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px; 
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box30
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box31
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box32
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box33
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box34
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .img38
+    {
+        width:80px;
+        height:80px;
+        background-image:url(MCB.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img39
+    {
+        width:80px;
+        height:80px;
+        background-image:url(switch.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img40
+    {
+        width:80px;
+        height:80px;
+        background-image:url(wiree.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img41
+    {
+        width:80px;
+        height:80px;
+        background-image:url(appliance.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img42
+    {
+        width:80px;
+        height:80px;
+        background-image:url(bulb.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img43
+    {
+        width:80px;
+        height:80px;
+        background-image:url(door.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .container12
+    {
+        width:1270px;
+        height:180px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+        padding-top:40px;  
+    }
+    .box35
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box36
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px; 
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box37
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box38
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box39
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box40
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box41
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .img44
+    {
+        width:80px;
+        height:80px;
+        background-image:url(basin.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img45
+    {
+        width:80px;
+        height:80px;
+        background-image:url(bath.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img46
+    {
+        width:80px;
+        height:80px;
+        background-image:url(Blockage.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img47
+    {
+        width:80px;
+        height:80px;
+        background-image:url(drill.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img48
+    {
+        width:80px;
+        height:80px;
+        background-image:url(wire.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img49
+    {
+        width:80px;
+        height:80px;
+        background-image:url(Tap.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .container13
+    {
+        width:1270px;
+        height:180px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+        padding-top:40px; 
+    }
+    .box42
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box43
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px; 
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box44
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box45
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box46
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box47
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .box48
+    {
+        width:140px;
+        height:120px;
+        margin:30px;
+        margin-right:5px;
+        box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+        border-radius:10px;   
+    }
+    .img50
+    {
+        width:80px;
+        height:80px;
+        background-image:url(Bed.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img51
+    {
+        width:80px;
+        height:80px;
+        background-image:url(curtain.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img52
+    {
+        width:80px;
+        height:80px;
+        background-image:url(door\ 1.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img53
+    {
+        width:80px;
+        height:80px;
+        background-image:url(drawer.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img54
+    {
+        width:80px;
+        height:80px;
+        background-image:url(fit.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .img55
+    {
+        width:80px;
+        height:80px;
+        background-image:url(furniture.png);
+        background-size:100% 100%;
+        margin-left:30px;
+        margin-top:-30px;
+    }
+    .k
+    {
+        font-size:13px;
+        color:black;
+        padding-left:18px;
+    }
+    .l
+    {
+        font-size:10px;
+        color:grey;
+        padding-left:15px;
+    }
+    .m
+    {
+        font-size:13px;
+        padding-left:43px;
+    }
+    .container14
+    {
+        width:1100px;
+        height:280px;
+        margin:0 auto;
+        background-color:rgb(206, 203, 203);
+        margin-top:90px;
+    }
+    .clear
+    {
+        clear: both;
+    }
+    .box49
+    {
+        width:300px;
+        height:230px;
+        background-color:white;
+        float:right;
+        margin-top:25px;
+        margin-right:180px;
+    }
+    p
+    {
+        font-size:25px;
+        color:teal;
+        margin-left:38px;
+        padding-top:30px;
+    }
+    .n
+    {
+        font-size:25px;
+        color:teal;
+        padding-left:450px;
+    }
+    .container15
+    {
+        width:1270px;
+        height:180px;
+        margin:0 auto;
+        display:flex;
+        justify-content:space-evenly;
+        display:flex;
+        flex-direction:row;
+        padding-top:40px; 
+    }
+    .box50
+    {
+      width:200px;
+      height:130px;
+      box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+     
+    }
+    .box51
+    {
+       width:200px;
+      height:130px;
+      box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+      
+    }
+    .box52
+    {
+        width:200px;
+      height:130px;
+      box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+    
+    }
+    .box53
+    {
+        width:200px;
+      height:130px;
+      box-shadow:5px 5px 15px 10px rgb(221, 218, 218);
+      
+    }
+    .container16
+    {
+        width:1100px;
+        height:280px;
+        margin:0 auto;
+        background-color:rgb(206, 203, 203);
+        margin-top:90px;
+    }
+    .o
+    {
+        font-size:15px;
+        color:teal;
+        margin-left:38px;
+        padding-top:10px;  
+    }
+    .img56
+    {
+        width:180px;
+        height:240px;
+        background-image:url(mobile.png);
+        background-size:100% 100%;
+        float:right;
+        margin-top:-90px;
+        margin-right:400px;
+    }
+    .img57
+    {
+        width:180px;
+        height:180px;
+        background-image:url(mobile.png);
+        background-size:100% 100%;
+        
+        margin-top:-40px;
+        margin-left:750px;
+    }
+ </style>  
+ </head>
+ <body>
+    <div class="container-fluid">
+        Oyebusy
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        1st Floor H 356,Block-B,Sector 22,Noida,Uttar Pradesh 201301
+    <nav class="nav justify-content-end">
+      <a href="#" class="nav-item nav-link">Blog</a>
+      <a href="#" class="nav-item nav-link">Career</a>
+      
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">My Account</a>
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <button type="button" class="btn btn-outline-secondary">Download App</button>
+      </div>
+        
+      </div>
+
+    </nav>
+    </div>
+    <div class="container1-fluid">
+    <div class="container1-fluid-left">
+    <div class="img1">
+    </div>
+    </div>
+    <div class="container1-fluid-right">
+    <h3 class="ab">What Are You Looking For?</h3>
+    <div class="box1">
+    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">FLAT $400 OFF</a>
+</div>
+    <div class="container">
+        <div class="box2">
+            <div class="img2"></div>
+            Salon at Home
+        </div>
+        <div class="box2">
+            <div class="img3"></div>
+            Electrician
+        </div>
+        <div class="box2">
+            <div class="img4"></div>
+            Plumber
+        </div>
+        <div class="box2">
+            <div class="img5"></div>
+            CCTV
+        </div>
+
+
+    </div>
+    <div class="container1">
+        <div class="box3">
+            <div class="img6"></div>
+            AC Services
+        </div>
+        <div class="box3">
+            <div class="img7"></div>
+            Packers & Movers
+        </div>
+        <div class="box3">
+            <div class="img8"></div>
+            Cleaning
+        </div>
+        <div class="box3">
+            <div class="img9"></div>
+            House Painting
+        </div>
+
+
+    </div>
+    <div class="container2">
+        <div class="box4">
+            <div class="img10"></div>
+            Home Appliances 
+        </div>
+        <div class="box4">
+            <div class="img11"></div>
+            Disinfection
+        </div>
+        <div class="box4">
+            <div class="img12"></div>
+            Pest Control
+        </div>
+        <div class="box4">
+            <div class="img13"></div>
+            Carpenter
+        </div>
+
+
+    </div>
+    <div class="container3">
+        <div class="box5">
+            <div class="img14"></div>
+        </div>
+        <div class="box5">
+            <div class="img15"></div>
+        </div>
+        <div class="box6">
+            <div class="img16"></div>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+
+    <h3>Trending Services</h3>
+     <h4>Premium Home Services</h4>
+     <div class="container4">
+        <div class="box7">
+            <div class="img17"></div>
+            <h6 class="ac">Air-Conditioner<br>Services</h6>
+        </div>
+        <div class="box7">
+            <div class="img18"></div>
+            <h6 class="ac">AC Installation</h6>   
+        </div>
+        <div class="box7">
+            <div class="img19"></div>
+            <h6 class="ac">Sofa Cleaning<br>Service</h6>
+        </div>
+        <div class="box7">
+            <div class="img20"></div>
+            <h6 class="ac">Home Deep<br>Cleaning Services</h6>
+        </div>
+        <div class="box7">
+            <div class="img21"></div>
+            <h6 class="ac">Air-Conditioner<br>Services</h6>
+        </div>
+        
+     </div>
+     <h3>Same Day Services</h3>
+     <h4>Premium Home Services</h4>
+     <div class="container5">
+        <div class="box8">
+            <div class="img22"></div>
+            <h6 class="ac">Carpentary<br> Services</h6>
+        </div>
+        <div class="box8">
+            <div class="img23"></div>
+            <h6 class="ac">AC Installation</h6>   
+        </div>
+        <div class="box8">
+            <div class="img24"></div>
+            <h6 class="ac">Sofa Cleaning<br>Service</h6>
+        </div>
+        <div class="box8">
+            <div class="img25"></div>
+            <h6 class="ac">Home Deep<br>Cleaning Services</h6>
+        </div>
+        <div class="box8">
+            <div class="img26"></div>
+            <h6 class="ac">Air-Conditioner<br>Services</h6>
+        </div>
+        
+     </div>
+     <div class="box9">
+        <div class="img27"></div>
+     <h2>100% Safe Services</h2>
+     
+     </div>
+     <h3>Professional Cleaning Services</h3>
+     <h4>Premium Home Services</h4>
+     <div class="container6">
+        <div class="sec1">
+        <div class="box10">
+        </div>
+        <br>
+         <h6 class="ap">Professional Deep Cleaning</h6>
+        <h6 class="as">For spring clean for end of lease clean</h6>
+        </div>
+        <div class="sec2">
+        <div class="box11">
+        </div>
+        <br>
+        <h6 class="ap">Professional Deep Cleaning</h6>
+       <h6 class="as">For spring clean for end of lease clean</h6>
+       </div>
+       <div class="sec3">
+        <div class="box12">
+        </div>
+        <br>
+        <h6 class="ap">Professional Deep Cleaning</h6>
+       <h6 class="as">For spring clean for end of lease clean</h6>
+       </div>
+       <div class="sec4">
+        <div class="box13">  
+        </div>
+        <br>
+        <h6 class="ap">Professional Deep Cleaning</h6>
+       <h6 class="as">For spring clean for end of lease clean</h6>
+       </div>    
+     </div>
+     <h3>Most Used Services</h3>
+     <h4>Premium Home Services</h4>
+     <div class="container7">
+        <div class="sec1">
+            <div class="box14">
+            </div>
+            <br>
+             <h6 class="ap">Professional Deep Cleaning</h6>
+            <h6 class="as">For spring clean for end of lease clean</h6>
+            </div>
+            <div class="sec2">
+            <div class="box15">
+            </div>
+            <br>
+            <h6 class="ap">Professional Deep Cleaning</h6>
+           <h6 class="as">For spring clean for end of lease clean</h6>
+           </div>
+           <div class="sec3">
+            <div class="box16">
+            </div>
+            <br>
+            <h6 class="ap">Professional Deep Cleaning</h6>
+           <h6 class="as">For spring clean for end of lease clean</h6>
+           </div>
+           <div class="sec4">
+            <div class="box17">  
+            </div>
+            <br>
+            <h6 class="ap">Professional Deep Cleaning</h6>
+           <h6 class="as">For spring clean for end of lease clean</h6>
+           </div>    
+         </div> 
+         <br>
+         <br>
+         <div class="container8">
+            <h1>Assured Peace Of Mind</h1>
+            <div class="img28">
+                </div>
+                <h5 class="z">High Quality Work</h5>
+                <br>
+                <h5 class="y">Only authorized service experts and<br> genuine spare parts and equipments</h5>
+                <div class="img29">
+                </div>
+                <h5 class="p">Hassale Free</h5>
+                <br>
+                <h5 class="q">Sit back and relax.
+                    <br>
+                    We do all the work
+                </h5>
+                <div class="img30">
+                </div>
+                <h5 class="s">Totally Cashless</h5>
+                <br>
+                <h5 class="t">Pay online for Safe & Secure payment.
+                    <br>
+                    Many benefits and offer available with online payment.
+                </h5>
+            </div>
+         <h3>Trending Services</h3>
+     <h4>Premium Home Services</h4>
+     <div class="container9">
+        <div class="sec1">
+            <div class="box18">
+            </div>
+            <br>
+             <h6 class="ap">Professional Deep Cleaning</h6>
+            <h6 class="as">For spring clean for end of lease clean</h6>
+            </div>
+            <div class="sec2">
+            <div class="box19">
+            </div>
+            <br>
+            <h6 class="ap">Professional Deep Cleaning</h6>
+           <h6 class="as">For spring clean for end of lease clean</h6>
+           </div>
+           <div class="sec3">
+            <div class="box20">
+            </div>
+            <br>
+            <h6 class="ap">Professional Deep Cleaning</h6>
+           <h6 class="as">For spring clean for end of lease clean</h6>
+           </div>
+           <div class="sec4">
+            <div class="box21">  
+            </div>
+            <br>
+            <h6 class="ap">Professional Deep Cleaning</h6>
+           <h6 class="as">For spring clean for end of lease clean</h6>
+           </div>    
+         </div> 
+         <h3>Home Appliances Services</h3>
+         <h4>Premium Home Services</h4>
+         <div class="container10">
+                <div class="box22">
+                    <div class="img31">
+                    </div>
+                    <h5 class="e">Washing Machine<br>Repair</h5>
+                </div>
+                <div class="box23">
+                    <div class="img32">
+                    </div>
+                    <h5 class="e">Refrigerator<br>Repair/Service</h5>
+                </div>
+                <div class="box24">
+                    <div class="img33">
+                    </div>
+                    <h5 class="e">Microwave Repair</h5>
+                </div>
+                <div class="box25">
+                    <div class="img34">
+                    </div>  
+                    <h5 class="f">RO Service</h5>
+                </div>
+                <div class="box26">  
+                    <div class="img35">
+                    </div>
+                    <h5 class="f">LED TV Repair</h5>
+                </div>
+                <div class="box27">  
+                    <div class="img36">
+                    </div>
+                    <h5 class="f">AC Service</h5>
+                </div>  
+             </div> 
+             <div class="container2-fluid">
+              <h1 class="g">TRY OUR TRENDING SERVICES<BR><h1 class="i">WITH UPTO 50% OFF!</h1><BR><h1 class="h">On any service you book</h1></h1>
+              <button type="button" class="btn btn-outline-danger">Book A Service</button>
+             </div>
+             <div class="container11">
+                <div class="box28">
+                  
+                </div>
+                <div class="box29">
+                    <div class="img38">
+                    </div>
+                    <h5 class="m">MCB & Fuse<br><h5 class="l">Repairing & Installation</h5></h5>
+                </div>
+                <div class="box30">
+                    <div class="img39">
+                    </div>
+                    <h5 class="k">Switch & Socket<br><h5 class="l">Shower,Faucets & Holder Installation & Repair</h5></h5>
+                </div>
+                <div class="box31">
+                    <div class="img40">
+                    </div>  
+                    <h5 class="m">Wiring<br><h5 class="l">Toilet pot, Sink, Bathroom, Balcony pipe</h5></h5>
+                </div>
+                <div class="box32">  
+                    <div class="img41">
+                    </div>
+                    <h5 class="m">Appliances<br><h5 class="l">Painting, Clock & Photoframe</h5></h5>
+                </div>
+                <div class="box33">  
+                    <div class="img42">
+                    </div>
+                    <h5 class="m">Chandelier<br><h5 class="l">Holder, Hanger, Rod Installation</h5></h5>
+                </div> 
+                <div class="box33">  
+                    <div class="img43">
+                    </div> 
+                    <h5 class="m">Door Bell<br><h5 class="l">Bed, Table,Rack & Cabinet</h5></h5>
+             </div> 
+             </div>
+             <div class="container12">
+                <div class="box42">
+                  
+                </div>
+                <div class="box34">
+                    <div class="img44">
+                    </div>
+                    <h5 class="k">Wash Basin & Sink<br><h5 class="l">Repairing & Installation</h5></h5>
+                </div>
+                <div class="box35">
+                    <div class="img45">
+                    </div>
+                    <h5 class="k">Bath Fittings<br><h5 class="l">Shower,Faucet & Holder Installation & Repair</h5></h5>
+                </div>
+                <div class="box36">
+                    <div class="img46">
+                    </div>  
+                    <h5 class="m">Blockage<br><h5 class="l">Toilet Pot, Sink, Bathroom, Balcony pipe</h5></h5>
+                </div>
+                <div class="box37">  
+                    <div class="img47">
+                    </div>
+                    <h5 class="k">Drill & Hole<br><h5 class="l">Painting, Clock & Photoframe</h5></h5>
+                </div>
+                <div class="box38">  
+                    <div class="img48">
+                    </div>
+                    <h5 class="k">Minor Installations<br><h5 class="l">Holder,Hanger,Road Installation</h5></h5>
+                </div> 
+                <div class="box39">  
+                    <div class="img49">
+                    </div> 
+                    <h5 class="k">Mixer,Tap & Nozzle<br><h5 class="l">Bed,Table,Rack & Cabinet</h5></h5>
+             </div> 
+             </div>
+             <div class="container13">
+                <div class="box40">
+                  
+                </div>
+                <div class="box41">
+                    <div class="img50">
+                    </div>
+                    <h5 class="m">Bed<br><h5 class="l">Repairing Support,Legs</h5></h5>
+                </div>
+                <div class="box42">
+                    <div class="img51">
+                    </div>
+                    <h5 class="k">Curtains & Blinds<br><h5 class="l">Motorized and Non-Motorized<br>Blinds & Curtain Road</h5></h5>
+                </div>
+                <div class="box43">
+                    <div class="img52">
+                    </div>  
+                    <h5 class="m">Door<br><h5 class="l">Repairing, Accessories, Installation</h5></h5>
+                </div>
+                <div class="box44">  
+                    <div class="img53">
+                    </div>
+                    <h5 class="k">Drawer & Cupboard<br><h5 class="l">Channel Hinge Repair</h5></h5>
+                </div>
+                <div class="box45">  
+                    <div class="img54">
+                    </div>
+                    <h5 class="k">Fittings & Installation<br><h5 class="l">Holder,Hanger,Rod Installation</h5></h5>
+                </div> 
+                <div class="box46">  
+                    <div class="img55">
+                    </div> 
+                    <h5 class="k">Furniture Assembly<br><h5 class="l">Bed,Table,Rack & Cabinet</h5></h5>
+             </div> 
+             </div>
+             
+             <div class="container14">
+             <div class="box49">
+              <p>Why People Choose<br>Us</p>
+             </div> 
+             </div>
+            <p class="n">What are customers say</p>
+            <div class="container15">
+            <div class="box50">
+
+            </div>
+            <div class="box51">
+
+            </div>
+            <div class="box52">
+
+            </div>
+            <div class="box53">
+
+            </div>
+            </div>
+            <div class="container16">
+               <p>Refer and or get link</p>
+               <p class="o">Invite your friends</p>    
+            
+            <div class="img56">
+             </div>
+             <div class="img57">
+
+             </div>
+            </div>
+ </body> 
+ </html>  
